@@ -1,0 +1,4 @@
+#!/bin/sh
+touch /tmp/foo.c
+gcc -c -E -dM /tmp/foo.c
+rm -f /tmp/foo.c
